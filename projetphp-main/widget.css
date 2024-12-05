@@ -1,0 +1,58 @@
+.widgets-container {
+    display: flex;
+    flex-wrap: wrap;
+    
+    width: calc(33.33% - 20px);
+    border: 1px solid #ccc;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.widget {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 20px;
+    width: calc(33.33% - 20px); /* Utiliser calc() pour calculer la largeur de chaque widget */
+    text-align: center;
+}
+
+h2 {
+color: #333;
+}
+
+button {
+background-color: #007bff;
+color: #fff;
+border: none;
+padding: 10px 20px;
+border-radius: 5px;
+cursor: pointer;
+transition: background-color 0.3s;
+}
+
+button:hover {
+background-color: #0056b3;
+}
+.widget img {
+max-width: 270px; /* Définir la largeur maximale de l'image */
+height: auto; /* Garder le ratio de l'image */
+}
+.widget ul {
+list-style-type: none; /* Supprimer les puces */
+padding: 0; /* Supprimer le remplissage par défaut */
+}
+
+.widget ul li {
+margin-bottom: 10px;
+margin-left:200px; /* Ajouter un espace entre chaque élément de la liste */
+}
+.widget img {
+float: left;
+margin-top: -160px;
+margin-left: -210px; /* Ajouter un espace entre le texte et l'image */
+}
+
+.button{
+margin-right: 15px;
+margin-top: 15px;
+}
